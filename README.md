@@ -14,11 +14,19 @@ This project utilizes data preprocessing techniques and linear regression modeli
 - **Tools**: Python, Pandas, Scikit-learn, Matplotlib
 
 ## Dataset
-The dataset contains the following columns:
-- **Square footage**: House size in square feet
-- **Bedrooms**: Number of bedrooms in the house
-- **Location**: Location as categorical feature (e.g., NY, CA)
-- **Price**: Target variable, the house price
+The dataset contains 10 features:
+- square_footage
+- num_bedrooms
+- num_bathrooms
+- location_score
+- year_built
+- garage_size
+- num_floors
+- distance_city_center
+- has_pool
+- crime_rate
+
+The target variable is `house_price`.
 
 ## Steps Involved
 1. **Data Preprocessing**: Handling missing values, encoding categorical variables, and splitting data.
